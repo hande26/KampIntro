@@ -2,8 +2,8 @@
 
 class Program
 {
-    // METODLAR= Tekrar tekrar kullanılabilirliği sağlayan kod bloları ---- DO NOT REPEAT
-    // kendini tekrar eden kod blokları varsa metod oluştur.
+    // METODLAR= Tekrar tekrar kullanılabilirliği sağlayan kod bloları
+    // DO NOT REPEAT ----- kendini tekrar eden kod blokları varsa metod oluştur.
     // Clean Code - Best Practice
 
 
@@ -38,7 +38,7 @@ class Program
         SepetManager sepetManager = new SepetManager();
         sepetManager.Ekle(urun1);  // Sepete eklendi : Elma 
 
-        sepetManager.Ekle2("Armut","Yeşil armut",12);
+        sepetManager.Ekle2("Armut","Yeşil armut",12); //Tebrikler sepete eklendi: Armut
 
 
 

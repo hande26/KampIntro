@@ -22,4 +22,5 @@ namespace Metotlar
         }
 
     }
+    //Bir classın sonunda yer alan manager, servis, DAL, data access, controller gibi ifadeler bir operasyonların tutulduğunu belirtir.
 }
