@@ -12,7 +12,7 @@ public class Program
         Console.WriteLine(isimler[3]);
 
         //Arraylar oluşturulduğunda o sınırlar arasında kalır.
-        //dizileri genişletemiyoruz. genişletmeye çalışıp yeniden new lense busefer değerleri kaybediyoruz çünkü yeni adrese atıyor.
+        //dizileri genişletemiyoruz. genişletmeye çalışıp yeniden new lense bu sefer değerleri kaybediyoruz çünkü yeni adrese atıyor.
 
         isimler = new string[5];// burada yapılan new ile yeni bir adres tanımlandı ve isimler dizisi artık o adrese atandı.
         isimler[4] = "İlker";

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GenericsIntro
 {
     public class MyList<T>// Ben MYList'imde T ile çalışacağım demektir.
-                         // Bana bir tip ver ben aşağıyı ona göre yapılandırcam demektir. İnt, String vs.
+                         // Bana bir tip ve ben aşağıyı ona göre yapılandırcam demektir. İnt, String vs.
     {
 
         T[] items; // MyList'in çalışabilmesi için arka planda kullanılacak diziyi oluşturuyoruz.
